@@ -1,0 +1,54 @@
+@import "../styles/mixins";
+@import "../styles/variables";
+
+.success {
+  color: $aqua;
+}
+
+.failure {
+  color: $red;
+}
+
+.hash {
+  color: $battleship;
+  font-size: 12px;
+  text-align: center;
+}
+
+.feedback {
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.continueBtn {
+  margin-top: 30px;
+}
+.loadingv2 {
+  color: $theme_dark_purple_btn !important;
+}
+.headerV2 {
+  padding: 5px 20px;
+}
+.cardHeaderV2 {
+  box-shadow: none !important;
+}
+.receipt {
+  background: #1b1b1b !important;
+  box-shadow: 0px 4px 60px rgba(244, 110, 193, 0.7) !important;
+  border-radius: 15px !important;
+}
+.footer {
+  // margin-top: 150px;
+}
+.newHeader {
+  padding: 20px 20px;
+}
+.btn {
+  background: #c83e93 !important;
+  border-radius: 10px !important;
+  border-color: #c83e93 !important;
+}
+.dflex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

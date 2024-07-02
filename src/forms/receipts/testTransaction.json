@@ -1,0 +1,351 @@
+[
+    {
+        "events": [
+            {
+                "type": "coin_received",
+                "attributes": [
+                    {
+                        "key": "amount",
+                        "value": "4998ujuno"
+                    },
+                    {
+                        "key": "receiver",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    }
+                ]
+            },
+            {
+                "type": "coin_spent",
+                "attributes": [
+                    {
+                        "key": "amount",
+                        "value": "4998ujuno"
+                    },
+                    {
+                        "key": "spender",
+                        "value": "juno1qc8mrs3hmxm0genzrd92akja5r0v7mfm6uuwhktvzphhz9ygkp8ssl4q07"
+                    }
+                ]
+            },
+            {
+                "type": "execute",
+                "attributes": [
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1qc8mrs3hmxm0genzrd92akja5r0v7mfm6uuwhktvzphhz9ygkp8ssl4q07"
+                    }
+                ]
+            },
+            {
+                "type": "message",
+                "attributes": [
+                    {
+                        "key": "action",
+                        "value": "/cosmwasm.wasm.v1.MsgExecuteContract"
+                    },
+                    {
+                        "key": "module",
+                        "value": "wasm"
+                    },
+                    {
+                        "key": "sender",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    }
+                ]
+            },
+            {
+                "type": "transfer",
+                "attributes": [
+                    {
+                        "key": "amount",
+                        "value": "4998ujuno"
+                    },
+                    {
+                        "key": "recipient",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "sender",
+                        "value": "juno1qc8mrs3hmxm0genzrd92akja5r0v7mfm6uuwhktvzphhz9ygkp8ssl4q07"
+                    }
+                ]
+            },
+            {
+                "type": "wasm",
+                "attributes": [
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup"
+                    },
+                    {
+                        "key": "action",
+                        "value": "send"
+                    },
+                    {
+                        "key": "from",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "to",
+                        "value": "juno1qc8mrs3hmxm0genzrd92akja5r0v7mfm6uuwhktvzphhz9ygkp8ssl4q07"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "1000000"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1qc8mrs3hmxm0genzrd92akja5r0v7mfm6uuwhktvzphhz9ygkp8ssl4q07"
+                    },
+                    {
+                        "key": "action",
+                        "value": "swap"
+                    },
+                    {
+                        "key": "ask_asset",
+                        "value": "ujuno"
+                    },
+                    {
+                        "key": "commission_amount",
+                        "value": "14"
+                    },
+                    {
+                        "key": "offer_amount",
+                        "value": "1000000"
+                    },
+                    {
+                        "key": "offer_asset",
+                        "value": "juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup"
+                    },
+                    {
+                        "key": "receiver",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "return_amount",
+                        "value": "4998"
+                    },
+                    {
+                        "key": "sender",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "spread_amount",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "msg_index": 1,
+        "events": [
+            {
+                "type": "coin_received",
+                "attributes": [
+                    {
+                        "key": "receiver",
+                        "value": "juno1pctfpv9k03v0ff538pz8kkw5ujlptntzkwjg6c0lrtqv87s9k28qdtl50w"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "4950ujuno"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "4950ujuno"
+                    },
+                    {
+                        "key": "receiver",
+                        "value": "juno1a7lmc8e04hcs4y2275cultvg83u636ult4pmnwktr6l9nhrh2e8qzxfdwf"
+                    }
+                ]
+            },
+            {
+                "type": "coin_spent",
+                "attributes": [
+                    {
+                        "key": "spender",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "4950ujuno"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "4950ujuno"
+                    },
+                    {
+                        "key": "spender",
+                        "value": "juno1pctfpv9k03v0ff538pz8kkw5ujlptntzkwjg6c0lrtqv87s9k28qdtl50w"
+                    }
+                ]
+            },
+            {
+                "type": "execute",
+                "attributes": [
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1pctfpv9k03v0ff538pz8kkw5ujlptntzkwjg6c0lrtqv87s9k28qdtl50w"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1pctfpv9k03v0ff538pz8kkw5ujlptntzkwjg6c0lrtqv87s9k28qdtl50w"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1a7lmc8e04hcs4y2275cultvg83u636ult4pmnwktr6l9nhrh2e8qzxfdwf"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+                    }
+                ]
+            },
+            {
+                "type": "message",
+                "attributes": [
+                    {
+                        "key": "action",
+                        "value": "/cosmwasm.wasm.v1.MsgExecuteContract"
+                    },
+                    {
+                        "key": "module",
+                        "value": "wasm"
+                    },
+                    {
+                        "key": "sender",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    }
+                ]
+            },
+            {
+                "type": "transfer",
+                "attributes": [
+                    {
+                        "key": "recipient",
+                        "value": "juno1pctfpv9k03v0ff538pz8kkw5ujlptntzkwjg6c0lrtqv87s9k28qdtl50w"
+                    },
+                    {
+                        "key": "sender",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "4950ujuno"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "4950ujuno"
+                    },
+                    {
+                        "key": "recipient",
+                        "value": "juno1a7lmc8e04hcs4y2275cultvg83u636ult4pmnwktr6l9nhrh2e8qzxfdwf"
+                    },
+                    {
+                        "key": "sender",
+                        "value": "juno1pctfpv9k03v0ff538pz8kkw5ujlptntzkwjg6c0lrtqv87s9k28qdtl50w"
+                    }
+                ]
+            },
+            {
+                "type": "wasm",
+                "attributes": [
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1a7lmc8e04hcs4y2275cultvg83u636ult4pmnwktr6l9nhrh2e8qzxfdwf"
+                    },
+                    {
+                        "key": "action",
+                        "value": "swap"
+                    },
+                    {
+                        "key": "ask_asset",
+                        "value": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+                    },
+                    {
+                        "key": "commission_amount",
+                        "value": "85"
+                    },
+                    {
+                        "key": "offer_amount",
+                        "value": "4950"
+                    },
+                    {
+                        "key": "offer_asset",
+                        "value": "ujuno"
+                    },
+                    {
+                        "key": "protocol_fee_amount",
+                        "value": "28"
+                    },
+                    {
+                        "key": "receiver",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "return_amount",
+                        "value": "28513"
+                    },
+                    {
+                        "key": "sender",
+                        "value": "juno1pctfpv9k03v0ff538pz8kkw5ujlptntzkwjg6c0lrtqv87s9k28qdtl50w"
+                    },
+                    {
+                        "key": "spread_amount",
+                        "value": "0"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+                    },
+                    {
+                        "key": "action",
+                        "value": "transfer"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "28513"
+                    },
+                    {
+                        "key": "from",
+                        "value": "juno1a7lmc8e04hcs4y2275cultvg83u636ult4pmnwktr6l9nhrh2e8qzxfdwf"
+                    },
+                    {
+                        "key": "to",
+                        "value": "juno1u8nhpjpvwzfs9vtdnzuz7sn38k7w2artsv80fk"
+                    },
+                    {
+                        "key": "_contract_address",
+                        "value": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+                    },
+                    {
+                        "key": "action",
+                        "value": "transfer"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "28"
+                    },
+                    {
+                        "key": "from",
+                        "value": "juno1a7lmc8e04hcs4y2275cultvg83u636ult4pmnwktr6l9nhrh2e8qzxfdwf"
+                    },
+                    {
+                        "key": "to",
+                        "value": "juno1h59xu3kz8jrl3uss0xs97d8enk2077mt3723yhqcmecyq2vhnvlsfcu6d7"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,61 @@
+@import "../styles/mixins";
+@import "../styles/variables";
+
+.mainCard{
+    padding-top: 0 !important;
+    padding-bottom: 20px !important;
+}
+.mainCollapseCard{
+    padding-top: 0 !important;
+    padding-bottom: 30px !important;
+}
+.titleClass{
+    max-height: 60px;
+    padding: 0 $card-padding-horizontal;
+    min-height: 80px;
+    width: 100%;
+}
+.submit,
+.contents {
+  margin: 30px 0;
+}
+.headerDetail {
+  text-align: center;
+}
+.swapSubmit {
+  margin: 30px 0 0 0;
+}
+.slippage div {
+  padding: 1px 5px !important;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  //width: max-content;
+  width: 50px;
+}
+.slippage {
+  margin-top: -59px;
+  margin-left: -200px;
+  @include mobile {
+    margin: unset !important;
+  }
+}
+
+.webapp_card {
+  margin: auto;
+}
+.mainSection{
+  padding: 20px 30px !important;
+}
+.small{
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.titleClassName{
+    color: white !important;
+}
+.normalText{
+    text-transform: capitalize;
+}

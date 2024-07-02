@@ -1,0 +1,42 @@
+@import "../../styles/mixins";
+
+.tolBox {
+  padding: 10px;
+  color: white !important;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  font-size: 13px;
+
+  .d_flex_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+
+    .textDecoration {
+      text-decoration: underline;
+    }
+
+    .d_flex_row {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-start;
+
+      & * {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .pt10 {
+    padding-top: 10px;
+  }
+
+  .blue {
+    color: #32FE9A !important;
+    font-weight: bold;
+  }
+}

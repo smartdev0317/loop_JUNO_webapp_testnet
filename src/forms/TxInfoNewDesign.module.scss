@@ -1,0 +1,85 @@
+@import "../styles/mixins";
+@import "../styles/variables";
+
+.wrapper {
+  background: $saturated-blue;
+  border-radius: $border-radius;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.row {
+  @include flex(space-between);
+  padding: 15px;
+  background: #2d2d2d;
+  border-radius: 10px;
+}
+.newRow {
+  @include flex(space-between);
+  padding: 15px;
+}
+.changeColor {
+  color: #fff;
+  padding-left: 4px;
+}
+.title,
+.content {
+  font-size: 14px;
+  font-weight: 500;
+  span {
+    padding-right: 4px;
+  }
+}
+.plusIcon {
+  color: #fff;
+  margin: 0px 4px;
+}
+
+.title {
+  color: white;
+}
+
+.content {
+  color: $aqua;
+  text-align: right;
+  padding-left: 15px;
+}
+
+.children {
+  border-top: 1px dashed fade-out($battleship, 0.5);
+  padding: 10px 13px;
+
+  .row {
+    padding: 5px 0;
+  }
+
+  .title,
+  .content {
+    color: $battleship;
+    font-size: 12px;
+    font-weight: normal;
+  }
+}
+
+.footer {
+  padding: 10px;
+  background: rgba(19, 19, 19, 0.5);
+  border-radius: 10px;
+
+  .newRow {
+    padding: 5px 20px;
+  }
+
+  .title,
+  .content {
+    color: $battleship;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+.btn {
+  background: #c83e93 !important;
+  border-radius: 10px !important;
+  border-color: #c83e93 !important;
+  margin-top: 25px;
+}

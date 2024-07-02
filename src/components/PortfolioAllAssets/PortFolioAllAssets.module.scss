@@ -1,0 +1,142 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.assetsContainer {
+  display: flex;
+  background: $theme_light_black_color;
+
+  box-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+  border-radius: 15px;
+  max-width: 100%;
+  //max-width: 550px;
+  height: 215px;
+  padding: 4px;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .imageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    .coinImage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 80px;
+      background-color: black;
+      border-radius: 50px;
+      vertical-align: middle;
+    }
+  }
+  .valuesContainerChart {
+    .itemWrapper {
+      padding-top: 1px !important;
+      margin-top: 5px;
+    }
+  }
+  .valuesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+    @media only screen and (max-width: 420px) {
+      justify-content: center;
+      width: unset;
+      margin-left: 20px;
+    }
+    .itemWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // padding-top: 10px !important;
+      align-items: center;
+      .Style {
+        font-family: Lexend;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 24px;
+        text-transform: capitalize;
+        padding-left: 4px;
+      }
+      .textStyle {
+        font-family: Lexend;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 24px;
+        text-transform: capitalize;
+
+        color: #01cdfd;
+      }
+      .comingSoon {
+        font-family: Lexend;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: capitalize;
+
+        color: #01cdfd;
+      }
+      .dflex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }
+  }
+}
+.dFLex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.dFLexBottom{
+  margin-bottom: 17px;
+}
+
+.assetsContainerLoading {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  padding: 0;
+  background: $theme_light_black_color;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+  border-radius: 15px;
+  height: 215px;
+  flex-direction: row;
+
+  .imageWrapper {
+    width: 20%;
+  }
+  .imageWrapperChart {
+    width: 30%;
+  }
+  .valuesContainer {
+    width: 100%;
+  }
+  .imageWrapper,
+  .valuesContainer {
+    margin: 10px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.emptyAssets {
+  justify-content: center !important;
+  margin-bottom: 15px;
+}
+.changeFont {
+  font-size: 25px !important;
+}

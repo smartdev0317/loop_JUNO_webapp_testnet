@@ -1,0 +1,61 @@
+
+// import { EXCHANGE_TOKEN } from "../pages/Exchange"
+// import styles from "./PriceChart.module.scss"
+// import classnames from "classnames"
+// import classNames from "classnames/bind"
+// import GraphLine from "../images/graph_line.svg"
+// import BackgroundLines from "../images/background_lines.svg"
+
+// const cx = classNames.bind(styles)
+
+// interface Props {
+//   token1: EXCHANGE_TOKEN
+//   token2?: EXCHANGE_TOKEN
+//   pool: string | undefined
+//   large?: boolean
+//   expand?: boolean
+//   pro?: boolean
+//   pair?: string
+// }
+
+// const PriceChart = ({
+//   token1,
+//   token2,
+//   pair = "",
+//   pool,
+//   large,
+//   expand,
+//   pro = false,
+// }: Props) => {
+//   return (
+//     <div className={styles.container}>
+//       <div className={styles.component}>
+//         <div className={styles.headerChartLeft}>
+//           <section
+//             className={classNames(styles.PlaceHolder, styles.placeRight)}
+//           ></section>
+//           <section
+//             className={classNames(styles.PlaceHolder, styles.placeLeft)}
+//           ></section>
+//         </div>
+//         <div className={styles.chartContainer}>
+//           <div className={styles.innerChart}>
+//             <div className={styles.comingSoon}>
+//               <img src={BackgroundLines} alt={"img"} />
+//               <img
+//                 src={GraphLine}
+//                 alt={"img"}
+//                 style={{ position: "absolute" }}
+//               />
+//               <span className={styles.text}>
+//                 We're optimising graphs, please check back later...
+//               </span>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default PriceChart

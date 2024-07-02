@@ -1,0 +1,124 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.buttonWrapper {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 30px;
+  background: $aqua;
+  margin: 0 !important;
+  margin-top: 10px !important;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.migrate {
+  background: $darkblue;
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  background: $darkblue !important;
+  border-radius: $border-radius;
+  box-shadow: 0 20px 40px fade-out(black, 0.5);
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex: 1;
+
+  & h1 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: $theme_light_purple_btn;
+  }
+
+  & * {
+    align-self: center;
+    color: $white;
+  }
+}
+
+.values {
+  margin-top: 20px;
+}
+
+.title {
+  color: $aqua;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: $aqua;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+
+.adminFarming {
+  table {
+    background: #1b1b1b !important;
+
+    tr {
+      color: #fff;
+    }
+  }
+}
+
+.dflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+
+  input {
+    padding: 15px;
+    background-color: #131313;
+    border-radius: 10px;
+    color: #01cdfd;
+    font-size: 18px;
+  }
+}
+.value {
+  font-size: 14px;
+  font-weight: 500;
+  color: #01cdfd;
+}
+.heading {
+  font-size: 14px;
+  font-weight: 700;
+}
+.pageDesing {
+  margin-top: 12px;
+  background-color: #1b1b1b;
+  padding: 10px;
+}
+.updateBtn {
+  cursor: pointer;
+  padding: 6px;
+  color: #01cdfd !important;
+}

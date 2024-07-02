@@ -1,0 +1,17 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.addToKeplr{
+  display: flex;
+  flex-direction: row;
+  margin: 0 5px;
+
+  img{
+    display: flex;
+    height: 16px;
+    margin: 0 2px 0 0;
+  }
+  .addKeplrCopy{
+    cursor: pointer;
+  }
+}

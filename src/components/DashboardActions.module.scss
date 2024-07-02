@@ -1,0 +1,17 @@
+@import "../styles/mixins";
+
+.trigger {
+  @include flex;
+  color: $bluemain;
+  border: 2px solid $bluemain;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+}
+.btn {
+  background: #1fc1e8 !important;
+  border-radius: 10px !important;
+  border-color: #1fc1e8 !important;
+  margin-top: 25px;
+}

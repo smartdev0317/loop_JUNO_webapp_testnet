@@ -1,0 +1,71 @@
+@import "../styles/mixins";
+@import "../styles/variables";
+
+$symbol: 14px;
+$name: 12px;
+
+.asset {
+  @include flex(space-between);
+  // Because only one line of data can exist, fix the height.
+  align-items: center;
+  height: (($symbol + $name) * $line-height);
+  width: 100%;
+  p {
+    font-size: 14px !important;
+    padding-right: 10px;
+  }
+}
+.tooltip {
+  z-index: 0;
+  overflow: hidden;
+}
+.header {
+  text-align: left;
+  /*display: flex;
+  flex-direction: row;*/
+}
+.icons {
+  border-radius: 50%;
+}
+.symbol {
+  font-size: $symbol;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: $slate;
+  font-size: $name;
+  font-weight: normal;
+}
+
+.footer {
+  text-align: right;
+}
+
+.balance {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+}
+.dimBalance {
+  color: $theme_dim_dark;
+}
+.blured {
+  // opacity: 0.6;
+}
+.comingSoon {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: capitalize;
+
+  background: linear-gradient(91.12deg, #ff52bc 6.24%, #01cdfd 99.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

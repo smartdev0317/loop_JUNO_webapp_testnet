@@ -1,0 +1,366 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.header {
+  max-height: 100vh;
+  width: 193px;
+  top: 70px;
+  list-style: none;
+  margin-left: 40px;
+  float: left;
+  position: sticky;
+
+  @media (max-width: 1200px) and (min-width: 991px) {
+  }
+  @media (max-width: 1330px) and (min-width: 1200px) {
+  }
+  @include mobile {
+    display: none !important;
+    margin-left: 0;
+  }
+}
+@media (max-height: 790px) {
+  .header {
+    position: sticky !important;
+    max-height: inherit !important;
+    height: initial !important;
+  }
+}
+.navWrap a {
+  position: relative;
+}
+.navWrap a:hover img {
+  opacity: 0;
+}
+.navWrap a:hover img:nth-child(2) {
+  opacity: 1;
+}
+.headerSize {
+  min-height: 790px;
+  height: 100em;
+}
+.title {
+  font-family: Lexend;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.socialBtn {
+  width: 102px;
+  height: 34px;
+  left: 994px;
+  top: 30px;
+
+  background: #1b1b1b;
+  border-radius: 5px;
+}
+
+.logoHead {
+  background: #1b1b1b;
+  border-radius: 20px;
+  margin-top: 163px;
+  transition: all 0.5s ease-in-out;
+}
+.toggle_header {
+  width: 63px;
+  margin-left: 0;
+  padding-right: 10px;
+}
+.toggle_header + div {
+  width: calc(100% - 65px);
+  transition: all 0.8s ease-in-out;
+  @include mobile {
+    width: 100%;
+  }
+}
+.dropdownSection ul {
+  padding: unset !important;
+  margin-top: 248px !important;
+  height: 230px !important;
+}
+
+.toggle_header ul li a,
+.toggle_header ul li button,
+.toggle_header ul li button img {
+  padding-left: 3px !important;
+}
+header ul {
+  overflow: hidden;
+}
+header ul li span {
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 14px;
+}
+.toggle_header .logoHead {
+  border-radius: 0 15px 15px 0 !important;
+}
+.toggle_header .logo_link img:first-child {
+  transform: scale(1.4);
+}
+.headerTop {
+  background-color: green;
+  margin-top: 10px;
+}
+.button.ui.button.sidebarToggle,
+.page-sidebar,
+.page-sidebar *,
+header {
+  transition: all 0.5s ease-in-out;
+}
+// * {
+//   transition: all .5s ease-in-out;
+// }
+@include mobile {
+  .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .collapsed {
+    position: sticky;
+  }
+}
+.toggle_header nav ul li button {
+  padding-left: 0 !important;
+}
+.container {
+  @include desktop {
+    @include flex(space-between);
+  }
+}
+
+.wrapper {
+  @include flex(space-between);
+}
+
+.logo {
+  @include flex;
+  height: $side-nav-height;
+}
+.logo_link {
+  height: 96px;
+  transition: all 0.5s ease-in-out;
+}
+.logo_link {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 20px !important;
+  transition: all 0.5s ease-in-out;
+
+  & img {
+    align-self: center;
+    width: 100%;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+  }
+  & .version {
+    background-color: #dedfe2;
+    border-radius: 86px;
+    margin-top: -8px;
+    margin-bottom: 6px;
+    padding: 6.5px 0px;
+    align-items: center;
+    display: flex;
+    align-self: flex-end !important;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #23293e;
+    top: 103px;
+    width: 32.5px;
+    height: 15px;
+    left: 125px;
+    font-size: 13px;
+  }
+}
+.beta {
+  height: 100%;
+  width: 42px !important;
+  display: flex;
+  align-self: flex-end !important;
+}
+.beta_sm {
+  height: 12px;
+  width: 35px !important;
+}
+.badge {
+  margin-left: 8px;
+}
+
+.toggle {
+  @include flex;
+
+  @include desktop {
+    display: none;
+  }
+}
+
+.support {
+  @include desktop {
+    @include flex;
+  }
+
+  @include mobile {
+    .collapsed & {
+      display: none;
+    }
+  }
+}
+
+.connect {
+  @include flex;
+  padding-left: 15px;
+  cursor: pointer;
+  // display: none;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.hr {
+  margin: 0;
+}
+
+.navWrap {
+  background: $theme_black_color;
+  border-radius: 15px;
+  height: 70%;
+  // box-shadow: 0 2px 5px rgba(0, 0, 0, 1/ 70%);
+}
+
+.navWrapCollapsed {
+  border-radius: 0;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+
+.toggle_container {
+  margin-top: 163px;
+  position: absolute;
+  right: -28px;
+  top: 10px;
+  width: 62px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  @include mobile {
+    display: none;
+  }
+}
+.toggle_container img {
+  width: 28px;
+}
+.collapse_toggle_container {
+  margin-top: 163px;
+  position: absolute;
+  right: -4px;
+  top: 10px;
+  width: 22px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  @include mobile {
+    display: none;
+  }
+}
+.collapse_toggle_container img {
+  width: 28px;
+}
+.toggle_header .toggle_container {
+  width: 36px;
+  left: -5px;
+}
+.toggle_header .toggle_container img {
+  transform: rotate(180deg);
+}
+
+.mainlogo:hover {
+  opacity: 0.5;
+}
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  padding-bottom: 18px;
+  justify-content: space-between;
+
+  img {
+    display: flex;
+    height: 17px;
+  }
+  a:hover {
+    opacity: 1 !important;
+  }
+  .navWrap a:hover img {
+    opacity: 1 !important;
+  }
+}
+.socialContainerOpened {
+  padding: 0 13px;
+  padding-bottom: 15px !important;
+}
+.lightMode {
+  border-top: solid 1px #3c3735;
+  margin-top: 10px;
+  padding: 0 30px;
+  padding-bottom: 20px;
+
+  .modeContainer {
+    margin-top: 10px;
+    padding: 3px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 12px;
+    cursor: pointer;
+    .modeDisabled {
+      border-radius: 15px;
+      padding: 8px 20px;
+      opacity: 0.5;
+    }
+    .modeActive {
+      border-radius: 12px;
+      background-color: #2d2d2d;
+      padding: 8px 25px;
+    }
+  }
+}
+.lightModeSlim {
+  border-top: solid 1px #3c3735;
+  margin-top: 10px;
+  padding: 0 10px;
+  padding-bottom: 2px;
+}
+.modeArrowContainer {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
